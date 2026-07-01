@@ -1,0 +1,16 @@
+#include <stdio.h>
+int area(int x,int y) {
+    int result =x*y;
+    return result;
+}
+int main() {
+    int a,b,Area;
+    printf("Enter Length: ");
+    scanf("%d",&a);
+    printf("Enter Width: ");
+    scanf("%d",&b);
+    Area =area(a, b);
+
+    printf("Area of the rectangle = %d\n",Area);
+    return 0;
+}
